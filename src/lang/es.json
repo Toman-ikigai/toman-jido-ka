@@ -1,0 +1,320 @@
+{
+  "header": {
+    "items": [
+      {
+        "name": "INICIO",
+        "url": "home"
+      },
+      {
+        "name": "CATÁLOGO",
+        "url": "catalago"
+      },
+      {
+        "name": "SOBRE NOSOTROS",
+        "url": "about"
+      },
+      {
+        "name": "CONTACTO",
+        "url": "contacto"
+      },
+      {
+        "name": "VENTAS",
+        "url": "electrocontrol"
+      }
+    ]
+  },
+  "slideData": {
+    "items": [
+      {
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/ooslmos6jf10frvcznuu.jpg",
+        "title": "SISTEMAS MES",
+        "subtitle": "GABINETE DE COMUNICACIÓN",
+        "description": "Esta diseñado para desplegar rapidamente una red Ethernet entre lienas de produccion y la planta.",
+        "buttonText": "MAS INFORMACION"
+      },
+      {
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/vhld32il83d6nypf5tcg.jpg",
+        "title": "INOVACIONES TI",
+        "subtitle": "SERVICIOS DE INFORMÁTICA",
+        "description": "Servicios y soluciones relacionadas con las gestion, el soporte y la implementacion de tecnologias de la informacion en una organizacion.",
+        "buttonText": "MAS INFORMACION"
+      },
+      {
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/medjsuumj86ydcv86mna.jpg",
+        "title": "SUMINISTRO",
+        "subtitle": "DISTRIBUCION DE MATERIALES",
+        "description": "Involucra la logistica, el transporte, el almacenamiento y la supervision de los materiales a lo largo de toda la cadena de suministro.",
+        "buttonText": "MAS INFORMACION"
+      }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "icon": "<svg width='24' version='1.1' xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 64 64' xmlns:xlink='http://www.w3.org/1999/xlink' enable-background='new 0 0 64 64'><g><path fill='#E0E0E0' d='m2.629,56.493l6.152,6.844c0.375,0.417 0.909,0.659 1.469,0.663 0.004,0 0.012,0 0.016,0 0.556,0 1.084-0.23 1.463-0.638l31.958-34.345c0.467,0.032 1.07,0.06 1.767,0.06 3.192,0 9.128-0.599 12.996-4.604 2.556-2.646 3.784-6.279 3.652-10.797-0.02-0.622-0.32-1.2-0.821-1.568-0.497-0.366-1.139-0.48-1.733-0.31l-11.538,3.33-1.049-4.444 11.078-4.077c0.76-0.279 1.277-0.99 1.313-1.803 0.035-0.812-0.419-1.567-1.15-1.913-0.252-0.118-6.191-2.891-12.349-2.891-6.637,0-11.117,3.166-12.947,9.129-0.068,0.218-1.571,5.041 1.045,11l-31.299,33.636c-0.713,0.764-0.722,1.95-0.023,2.728zm35.186-34.622c0.587-0.631 0.709-1.564 0.305-2.326-2.641-4.973-1.451-9.016-1.395-9.197 1.305-4.252 4.291-6.318 9.127-6.318 1.905,0 3.826,0.329 5.499,0.747l-7.442,2.739c-0.953,0.35-1.496,1.363-1.26,2.358l1.947,8.239c0.127,0.535 0.465,0.996 0.939,1.273 0.471,0.277 1.037,0.349 1.562,0.198l10.859-3.136c-0.307,2.144-1.104,3.893-2.383,5.217-2.84,2.941-7.561,3.381-10.122,3.381-1.362,0-2.276-0.123-2.284-0.123-0.646-0.09-1.293,0.143-1.736,0.619l-31.14,33.466-3.457-3.845 30.981-33.292z'/></g></svg>",
+        "title": "Mantenimiento",
+        "description": "El cliente es muy importante, el cliente será seguido por el cliente. Pero al mismo tiempo sucedieron con mucho trabajo y dolor."
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' text-[#E0E0E0]'><path fill='#E0E0E0' d='M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3'></path><path fill='#E0E0E0' d='M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3'></path><path fill='#E0E0E0' d='M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path></svg>",
+        "title": "Servicio Residencial",
+        "description": "El cliente es muy importante, el cliente será seguido por el cliente. Pero al mismo tiempo sucedieron con mucho trabajo y dolor."
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-[#E0E0E0] leading-relaxed'><path d='M9 9v-1a3 3 0 0 1 6 0v1'></path><path d='M8 9h8a6 6 0 0 1 1 3v3a5 5 0 0 1 -10 0v-3a6 6 0 0 1 1 -3'></path><path d='M3 13l4 0'></path><path d='M17 13l4 0'></path><path d='M12 20l0 -6'></path><path d='M4 19l3.35 -2'></path><path d='M20 19l-3.35 -2'></path><path d='M4 7l3.75 2.4'></path><path d='M20 7l-3.75 2.4'></path></svg>",
+        "title": "Servicio Comercial",
+        "description": "El cliente es muy importante, el cliente será seguido por el cliente. Pero al mismo tiempo sucedieron con mucho trabajo y dolor."
+      }
+    ]
+  },
+  "reviews": {
+    "items": [
+      {
+        "name": "Electricidad",
+        "username": "@servicios_electricos",
+        "body": "Instalaciones eléctricas profesionales, mantenimiento preventivo y correctivo. Especialistas en proyectos residenciales y comerciales.",
+        "img": "https://avatar.vercel.sh/electricity"
+      },
+      {
+        "name": "Automatización",
+        "username": "@smart_automation",
+        "body": "Sistemas de automatización industrial y domótica. Optimización de procesos y control inteligente para hogares y empresas.",
+        "img": "https://avatar.vercel.sh/automation"
+      },
+      {
+        "name": "Robótica",
+        "username": "@robotics_solutions",
+        "body": "Desarrollo e implementación de soluciones robóticas para industria y educación. Mantenimiento y programación de robots.",
+        "img": "https://avatar.vercel.sh/robotics"
+      },
+      {
+        "name": "Software",
+        "username": "@dev_solutions",
+        "body": "Desarrollo de software a medida, aplicaciones web y móviles. Soluciones tecnológicas para optimizar su negocio.",
+        "img": "https://avatar.vercel.sh/software"
+      },
+      {
+        "name": "Reparaciones",
+        "username": "@fix_master",
+        "body": "Servicio técnico especializado en reparaciones generales. Atención rápida y eficiente para emergencias.",
+        "img": "https://avatar.vercel.sh/repairs"
+      },
+      {
+        "name": "Sistemas de Seguridad",
+        "username": "@security_systems",
+        "body": "Instalación de cámaras de seguridad, alarmas y control de acceso. Protección integral para su hogar o negocio.",
+        "img": "https://avatar.vercel.sh/security"
+      },
+      {
+        "name": "Reparación de Equipos",
+        "username": "@tech_repair",
+        "body": "Servicio técnico especializado en computadoras, laptops y dispositivos electrónicos. Diagnóstico y reparación profesional.",
+        "img": "https://avatar.vercel.sh/techrepair"
+      },
+      {
+        "name": "Diseño de Circuitos",
+        "username": "@circuit_design",
+        "body": "Diseño y montaje de circuitos electrónicos. Prototipado y pruebas de funcionamiento para proyectos de electrónica.",
+        "img": "https://avatar.vercel.sh/circuitdesign"
+      },
+      {
+        "name": "Industria 4.0",
+        "username": "@industry_4.0",
+        "body": "Implementación de tecnologías de la industria 4.0. Soluciones de automatización y digitalización para empresas.",
+        "img": "https://avatar.vercel.sh/industry4.0"
+      },
+      {
+        "name": "Programcion de Plcs",
+        "username": "@plc_programming",
+        "body": "Programación de controladores lógicos programables para automatización industrial. Configuración y puesta en marcha de sistemas PLC.",
+        "img": "https://avatar.vercel.sh/plcprogramming"
+      },
+      {
+        "name": "Armado de Gabinetes",
+        "username": "@cabinet_assembly",
+        "body": "Fabricación y montaje de gabinetes eléctricos y tableros de control. Diseño personalizado y ensamblaje de componentes.",
+        "img": "https://avatar.vercel.sh/cabinetassembly"
+      },
+      {
+        "name": "Venta de Materiales",
+        "username": "@material_sales",
+        "body": "Venta de materiales eléctricos y componentes electrónicos. Amplio catálogo de productos para instalaciones y reparaciones.",
+        "img": "https://avatar.vercel.sh/materialsales"
+      },
+      {
+        "name": "Venta de Equipo de Control",
+        "username": "@control_equipment",
+        "body": "Venta de equipos de control industrial y automatización. Amplia gama de dispositivos y accesorios para proyectos.",
+        "img": "https://avatar.vercel.sh/controlequipment"
+      }
+    ]
+  },
+  "benefitsData": {
+    "title": "Sistemas de Ejecución de Fabricación (MES)",
+    "content": "Un sistema integral y dinámico que monitorea, rastrea, documenta y controla el proceso de fabricación desde la materia prima hasta los  productos terminados.",
+    "items": [
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'> <path d='M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06'></path> <path d='M15 19l2 2l4 -4'></path> </svg>",
+        "title": "Mejor Control de Calidad",
+        "description": "La información del control de calidad se transmite en tiempo real, permitiendo a las empresas detener la producción inmediatamente al identificar un problema. Esto reduce residuos, sobras, excedentes y trabajo duplicado.",
+        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/qvks9zcuvllrwlnyi7uz.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path> <path d='M12 12l3 2'></path>  <path d='M12 7v5'></path></svg>",
+        "title": "Más Tiempo en Funcionamiento",
+        "description": "Genera cronogramas de producción realistas equilibrando recursos materiales, humanos y de equipamiento. Integra cronogramas y mantenimiento para maximizar el flujo de productos y la eficacia total del equipamiento (OEE).",
+        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/vhw0bdhecr01he5obpf0.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M6 18l0 -3'></path> <path d='M10 18l0 -6'></path> <path d='M14 18l0 -9'></path>  <path d='M18 18l0 .01'></path></svg>",
+        "title": "Inventario Reducido",
+        "description": "Actualiza registros de materiales para producción, merma y cumplimiento. Permite a departamentos de compras, logística y programación conocer exactamente el material disponible, reduciendo inventarios innecesarios y ahorrando costos.",
+        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/mbb4tcxz5xrsfeki9zwe.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2'></path>  <path d='M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4'></path>  <path d='M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z'></path></svg>",
+        "title": "Planta Sin Papel",
+        "description": "Elimina el papeleo, reduciendo oportunidades de error humano. Los datos registrados están disponibles inmediatamente en todos los sistemas integrados, permitiendo toma de decisiones en tiempo real.",
+        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/nj3yhpxwmsgvij5nt1pl.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2'>  <path d='M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z'></path>  <path d='M16 16v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2'></path></svg>",
+        "title": "Mejor Genealogía y Seguimiento",
+        "description": "Sigue todo el ciclo de producción de principio a fin, agrupando partes o lotes finales con sus datos de fabricación. Mejora el cumplimiento regulatorio de los fabricantes.",
+        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/evznuzl5v6xjmehb7ccw.png"
+      }
+    ]
+  },
+  "serviceAreas": {
+    "items": [
+      {
+        "title": "AUTOMATIZACIÓN",
+        "description": "Sistemas de control automático y soluciones de automatización industrial para optimizar sus procesos",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959724/imagens/servicios/segq5ddqynro0w1lrbdl.png"
+      },
+      {
+        "title": "INFORMÁTICA",
+        "description": "Desarrollo de software, mantenimiento de sistemas y soluciones tecnológicas integrales",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959724/imagens/servicios/ovp9gbtkoyxozkynaixb.png"
+      },
+      {
+        "title": "ESTRUCTURAS",
+        "description": "Diseño y fabricación personalizada y trabajos especializados en estructuras metálicas",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959724/imagens/servicios/vqp0m2pxkinmuqb14n04.png"
+      },
+      {
+        "title": "RED ELÉCTRICA",
+        "description": "Instalación y mantenimiento de sistemas eléctricos de alta calidad y eficiencia",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959725/imagens/servicios/qpvstm6wco3fojh1vmcy.png"
+      }
+    ]
+  },
+  "catalogItems": {
+    "items": [
+      {
+        "title": "Presentacion",
+        "description": "Conoce nuestra empresa y los servicios que ofrecemos",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/jvgyslcsigvkw6zclfo3.png",
+        "url_pdf": "rlqpe7mjrtz5qmxcqan3"
+      },
+      {
+        "title": "Productos",
+        "description": "Explora nuestra amplia gama de productos",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/sleu7flbtlmemdr7qir1.png",
+        "url_pdf": "hizppmcqr7owwj3htkje"
+      },
+      {
+        "title": "Sistema MES",
+        "description": "Conoce nuestro sistema de ejecución de fabricación",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/yrbqokw6p11dzb25vzp6.png",
+        "url_pdf": "hxynm2uchpbctaxjve2e"
+      },
+      {
+        "title": "Monitoreo",
+        "description": "Conoce nuestra tecnología de monitoreo",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/rw0ybamxrxc1mndt0ucy.png",
+        "url_pdf": "hqse65lxwb2jz95caufl"
+      },
+      {
+        "title": "Cursos",
+        "description": "Descubre nuestros cursos y talleres",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/dgp0fr9xtpfgwbjlz3aw.png",
+        "url_pdf": ""
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "title": "MONITOREO ENERGETICO",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/ooslmos6jf10frvcznuu.jpg",
+        "description": "Un sistema inteligente de gestión de energía, fácil de instalar y efectivo, que proporciona datos sobre tu consumo energético."
+      },
+      {
+        "title": "MANUFACTURING EXECUTION SYSTEM",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/vhld32il83d6nypf5tcg.jpg",
+        "description": "Permite monitorizar, controlar y registrar las operaciones del proceso productivo en tiempo real."
+      },
+      {
+        "title": "BALANCEO DE CARGAS",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/medjsuumj86ydcv86mna.jpg",
+        "description": "Gabinete de control que permite balancear las cargas eléctricas para no sobrecargar lineas de alimentación de los equipos."
+      }
+    ]
+  },
+  "about": {
+    "spot": {
+      "title": "JUNTOS, CREAMOS SOLUCIONES SOSTENIBLES",
+      "content": "Somos un equipo dedicado a brindar soluciones en automatización, sistemas informáticos e implementación de industria 4.0."
+    },
+    "informacion": {
+      "title": "¿Quiénes somos?",
+      "content": "Somos un equipo de trabajo que asiste las necesidades de nuestros clientes,proporcionando la tecnología, herramientas, material, asesoramiento y servicios necesarios para dar soluciones según las necesidades de nuestros clientes.",
+      "descripcion": [
+        {
+          "title": "JIDO-KA",
+          "descripcion": "Metodología japonesa que se traduce como <strong>Automatización con enfoque humano</strong>. Se basa en la autonomía y la automatización inteligente, priorizando el papel fundamental de las personas en los procesos."
+        },
+        {
+          "title": "IKIGAI",
+          "descripcion": "Concepto japonés que representa <strong>la razón de vivir</strong>. Describe aquello que da significado a nuestra vida, motivándonos a encontrar un propósito que nos haga sentir plenamente satisfechos y felices."
+        }
+      ]
+    },
+    "mision": "Asistir las necesidades de nuestros clientes, proporcionando la tecnología, herramientas, asesoramiento y servicios necesarios para dar soluciones integrales de ingeniería.",
+    "vision": "Ser reconocidos como una empresa comprometida en brindar soluciones integrales de automatización en procesos. Ofreciendo calidad, valor, eficiencia y eficacia a nuestros proyectos.",
+    "valores": [
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M17.286 21.09q -1.69 .001 -5.288 -2.615q -3.596 2.617 -5.288 2.616q -2.726 0 -.495 -6.8q -9.389 -6.775 2.135 -6.775h.076q 1.785 -5.516 3.574 -5.516q 1.785 0 3.574 5.516h.076q11.525 0 2.133 6.774q 2.23 6.802 -.497 6.8'></path> </svg>",
+        "label": "Innovación"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3'></path> <path d='M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3'></path> <path d='M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> </svg>",
+        "label": "Excelencia"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'> <path d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0'></path> <path d='M3.6 9h16.8'></path> <path d='M3.6 15h16.8'></path> <path d='M11.5 3a17 17 0 0 0 0 18'></path> <path d='M12.5 3a17 17 0 0 1 0 18'></path> </svg>",
+        "label": "Integridad"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'> <path d='M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> <path d='M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0'></path> <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path></svg>",
+        "label": "Compromiso"
+      }
+    ]
+  },
+  "missionandVision": {
+    "title": "Nuestro Compromiso con la Excelencia",
+    "content": [
+      "Hagamos posibles sus objetivos mediante innovación colaborativa. Las grandes ideas no pueden traerse al mundo real sin la energía colectiva y el conocimiento de un gran equipo.",
+      " En el fondo, la ingeniería consiste en utilizar la ciencia para encontrar soluciones prácticas y creativas. Es una profesión noble."
+    ]
+  },
+  "programas": {
+    "title": "¿Quieres liberar tu imaginación y creatividad?",
+    "content": [
+      "Únete a nuestro equipo para abrir nuevos aprendizajes y posibilidades, aprovechando tu potencial.",
+      "Toman Jidoka Ikigai está buscando jóvenes con ganas de trabajar para desempeñarse de forma profesional en nuestra empresa.",
+      "Así que si estás inscrito en el programa 'Jóvenes Construyendo el Futuro' postúlate a alguno de nuestros planes."
+    ]
+  }
+}

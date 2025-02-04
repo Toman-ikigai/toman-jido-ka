@@ -1,0 +1,320 @@
+{
+  "header": {
+    "items": [
+      {
+        "name": "HOME",
+        "url": "home"
+      },
+      {
+        "name": "CATALOG",
+        "url": "catalago"
+      },
+      {
+        "name": "ABOUT",
+        "url": "about"
+      },
+      {
+        "name": "CONTACT",
+        "url": "contacto"
+      },
+      {
+        "name": "SALES",
+        "url": "electrocontrol"
+      }
+    ]
+  },
+  "slideData": {
+    "items": [
+      {
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/ooslmos6jf10frvcznuu.jpg",
+        "title": "MES SYSTEMS",
+        "subtitle": "COMMUNICATION OFFICE",
+        "description": "Designed to quickly deploy an Ethernet network between production lines and the plant.",
+        "buttonText": "MORE INFORMATION"
+      },
+      {
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/vhld32il83d6nypf5tcg.jpg",
+        "title": "IT INNOVATIONS",
+        "subtitle": "INFORMATION TECHNOLOGY SERVICES",
+        "description": "Services and solutions related to the management, support, and implementation of information technology in an organization.",
+        "buttonText": "MORE INFORMATION"
+      },
+      {
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/medjsuumj86ydcv86mna.jpg",
+        "title": "SUPPLY",
+        "subtitle": "MATERIAL DISTRIBUTION",
+        "description": "Involves logistics, transportation, storage, and supervision of materials throughout the entire supply chain.",
+        "buttonText": "MORE INFORMATION"
+      }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "icon": "<svg width='24' version='1.1' xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 64 64' xmlns:xlink='http://www.w3.org/1999/xlink' enable-background='new 0 0 64 64'><g><path fill='#E0E0E0' d='m2.629,56.493l6.152,6.844c0.375,0.417 0.909,0.659 1.469,0.663 0.004,0 0.012,0 0.016,0 0.556,0 1.084-0.23 1.463-0.638l31.958-34.345c0.467,0.032 1.07,0.06 1.767,0.06 3.192,0 9.128-0.599 12.996-4.604 2.556-2.646 3.784-6.279 3.652-10.797-0.02-0.622-0.32-1.2-0.821-1.568-0.497-0.366-1.139-0.48-1.733-0.31l-11.538,3.33-1.049-4.444 11.078-4.077c0.76-0.279 1.277-0.99 1.313-1.803 0.035-0.812-0.419-1.567-1.15-1.913-0.252-0.118-6.191-2.891-12.349-2.891-6.637,0-11.117,3.166-12.947,9.129-0.068,0.218-1.571,5.041 1.045,11l-31.299,33.636c-0.713,0.764-0.722,1.95-0.023,2.728zm35.186-34.622c0.587-0.631 0.709-1.564 0.305-2.326-2.641-4.973-1.451-9.016-1.395-9.197 1.305-4.252 4.291-6.318 9.127-6.318 1.905,0 3.826,0.329 5.499,0.747l-7.442,2.739c-0.953,0.35-1.496,1.363-1.26,2.358l1.947,8.239c0.127,0.535 0.465,0.996 0.939,1.273 0.471,0.277 1.037,0.349 1.562,0.198l10.859-3.136c-0.307,2.144-1.104,3.893-2.383,5.217-2.84,2.941-7.561,3.381-10.122,3.381-1.362,0-2.276-0.123-2.284-0.123-0.646-0.09-1.293,0.143-1.736,0.619l-31.14,33.466-3.457-3.845 30.981-33.292z'/></g></svg>",
+        "title": "Maintenance",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' text-[#E0E0E0]'><path fill='#E0E0E0' d='M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3'></path><path fill='#E0E0E0' d='M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3'></path><path fill='#E0E0E0' d='M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path></svg>",
+        "title": "Residental Service",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-[#E0E0E0] leading-relaxed'><path d='M9 9v-1a3 3 0 0 1 6 0v1'></path><path d='M8 9h8a6 6 0 0 1 1 3v3a5 5 0 0 1 -10 0v-3a6 6 0 0 1 1 -3'></path><path d='M3 13l4 0'></path><path d='M17 13l4 0'></path><path d='M12 20l0 -6'></path><path d='M4 19l3.35 -2'></path><path d='M20 19l-3.35 -2'></path><path d='M4 7l3.75 2.4'></path><path d='M20 7l-3.75 2.4'></path></svg>",
+        "title": "Commercial Service",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  "reviews": {
+    "items": [
+      {
+        "name": "Electricity",
+        "username": "@servicios_electricos",
+        "body": "Professional electrical installations, preventive and corrective maintenance. Specialists in residential and commercial projects.",
+        "img": "https://avatar.vercel.sh/electricity"
+      },
+      {
+        "name": "Automation",
+        "username": "@smart_automation",
+        "body": "Industrial automation and home automation systems. Process optimization and smart control for homes and businesses.",
+        "img": "https://avatar.vercel.sh/automation"
+      },
+      {
+        "name": "Robotics",
+        "username": "@robotics_solutions",
+        "body": "Development and implementation of robotic solutions for industry and education. Maintenance and programming of robots.",
+        "img": "https://avatar.vercel.sh/robotics"
+      },
+      {
+        "name": "Software",
+        "username": "@dev_solutions",
+        "body": "Custom software development, web and mobile applications. Technological solutions to optimize your business.",
+        "img": "https://avatar.vercel.sh/software"
+      },
+      {
+        "name": "Repairs",
+        "username": "@fix_master",
+        "body": "Technical service specialized in general repairs. Fast and efficient attention for emergencies.",
+        "img": "https://avatar.vercel.sh/repairs"
+      },
+      {
+        "name": "Security Systems",
+        "username": "@security_systems",
+        "body": "Installation of security cameras, alarms, and access control. Comprehensive protection for your home or business.",
+        "img": "https://avatar.vercel.sh/security"
+      },
+      {
+        "name": "Equipment Repair",
+        "username": "@tech_repair",
+        "body": "Technical service specialized in computers, laptops, and electronic devices. Professional diagnosis and repair.",
+        "img": "https://avatar.vercel.sh/techrepair"
+      },
+      {
+        "name": "Circuit Design",
+        "username": "@circuit_design",
+        "body": "Design and assembly of electronic circuits. Prototyping and functional testing for electronic projects.",
+        "img": "https://avatar.vercel.sh/circuitdesign"
+      },
+      {
+        "name": "Industry 4.0",
+        "username": "@industry_4.0",
+        "body": "Implementation of Industry 4.0 technologies. Automation and digitalization solutions for companies.",
+        "img": "https://avatar.vercel.sh/industry4.0"
+      },
+      {
+        "name": "PLC programming",
+        "username": "@plc_programming",
+        "body": "Programming of programmable logic controllers for industrial automation. Configuration and commissioning of PLC systems.",
+        "img": "https://avatar.vercel.sh/plcprogramming"
+      },
+      {
+        "name": "Cabinet Assembly",
+        "username": "@cabinet_assembly",
+        "body": "Manufacturing and assembly of electrical cabinets and control panels. Custom design and assembly of components.",
+        "img": "https://avatar.vercel.sh/cabinetassembly"
+      },
+      {
+        "name": "Sale of Materials",
+        "username": "@material_sales",
+        "body": "Sale of electrical materials and electronic components. Extensive catalogue of products for installations and repairs.",
+        "img": "https://avatar.vercel.sh/materialsales"
+      },
+      {
+        "name": "Sale of Control Equipment",
+        "username": "@control_equipment",
+        "body": "Sale of industrial control and automation equipment. Wide range of devices and accessories for projects.",
+        "img": "https://avatar.vercel.sh/controlequipment"
+      }
+    ]
+  },
+  "benefitsData": {
+    "title": "Manufacturing Execution Systems (MES)",
+    "content": "A comprehensive and dynamic system that monitors, tracks, documents and controls the manufacturing process from raw materials to finished products.",
+    "items": [
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'> <path d='M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06'></path> <path d='M15 19l2 2l4 -4'></path> </svg>",
+        "title": "Better Quality Control",
+        "description": "Quality control information is transmitted in real-time, allowing companies to stop production immediately upon identifying a problem. This reduces waste, leftovers, excess, and duplicated work.",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/qvks9zcuvllrwlnyi7uz.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path> <path d='M12 12l3 2'></path>  <path d='M12 7v5'></path></svg>",
+        "title": "More Operating Time",
+        "description": "Generates realistic production schedules by balancing material, human, and equipment resources. Integrates schedules and maintenance to maximize product flow and overall equipment effectiveness (OEE).",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/vhw0bdhecr01he5obpf0.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M6 18l0 -3'></path> <path d='M10 18l0 -6'></path> <path d='M14 18l0 -9'></path>  <path d='M18 18l0 .01'></path></svg>",
+        "title": "Reduced Inventory",
+        "description": "Updates material records for production, waste, and compliance. Allows purchasing, logistics, and scheduling departments to know exactly what material is available, reducing unnecessary inventory and saving costs.",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/mbb4tcxz5xrsfeki9zwe.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2'></path>  <path d='M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4'></path>  <path d='M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z'></path></svg>",
+        "title": "Paperless Plant",
+        "description": "Eliminates paperwork, reducing opportunities for human error. Recorded data is immediately available across all integrated systems, allowing for real-time decision-making.",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/nj3yhpxwmsgvij5nt1pl.png"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2'>  <path d='M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z'></path>  <path d='M16 16v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2'></path></svg>",
+        "title": "Better Genealogy and Tracking",
+        "description": "Tracks the entire production cycle from start to finish, grouping parts or final batches with their manufacturing data. Improves regulatory compliance for manufacturers.",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/evznuzl5v6xjmehb7ccw.png"
+      }
+    ]
+  },
+  "serviceAreas": {
+    "items": [
+      {
+        "title": "AUTOMATION",
+        "description": "Automatic control systems and industrial automation solutions to optimize your processes",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959724/imagens/servicios/segq5ddqynro0w1lrbdl.png"
+      },
+      {
+        "title": "INFORMATION TECHNOLOGY",
+        "description": "Software development, system maintenance, and comprehensive technological solutions",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959724/imagens/servicios/ovp9gbtkoyxozkynaixb.png"
+      },
+      {
+        "title": "STRUCTURES",
+        "description": "Custom design and manufacturing and specialized work in metal structures.",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959724/imagens/servicios/vqp0m2pxkinmuqb14n04.png"
+      },
+      {
+        "title": "ELECTRICAL NETWORK",
+        "description": "Installation and maintenance of high-quality and efficient electrical systems",
+        "icon": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733959725/imagens/servicios/qpvstm6wco3fojh1vmcy.png"
+      }
+    ]
+  },
+  "catalogItems": {
+    "items": [
+      {
+        "title": "Presentation",
+        "description": "Get to know our company and the services we offer",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/jvgyslcsigvkw6zclfo3.png",
+        "url_pdf": "rlqpe7mjrtz5qmxcqan3"
+      },
+      {
+        "title": "Products",
+        "description": "Explore our wide range of products",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/sleu7flbtlmemdr7qir1.png",
+        "url_pdf": "hizppmcqr7owwj3htkje"
+      },
+      {
+        "title": "MES system",
+        "description": "Get to know our manufacturing execution system",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/yrbqokw6p11dzb25vzp6.png",
+        "url_pdf": "hxynm2uchpbctaxjve2e"
+      },
+      {
+        "title": "Monitoring",
+        "description": "Get to know our monitoring technology",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/rw0ybamxrxc1mndt0ucy.png",
+        "url_pdf": "hqse65lxwb2jz95caufl"
+      },
+      {
+        "title": "Courses",
+        "description": "Discover our courses and workshops",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/dgp0fr9xtpfgwbjlz3aw.png",
+        "url_pdf": ""
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "title": "ENERGY MONITORING",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/ooslmos6jf10frvcznuu.jpg",
+        "description": "An intelligent energy management system that is easy to install and effective, providing data on your energy consumption."
+      },
+      {
+        "title": "MANUFACTURING EXECUTION SYSTEM",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/vhld32il83d6nypf5tcg.jpg",
+        "description": "Allows monitoring, controlling, and recording production process operations in real-time."
+      },
+      {
+        "title": "LOAD BALANCING",
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733960985/imagens/medjsuumj86ydcv86mna.jpg",
+        "description": "Control cabinet that allows balancing electrical loads to prevent overloading the power lines of equipment."
+      }
+    ]
+  },
+  "about": {
+    "spot": {
+      "title": "TOGETHER, WE CREATE SUSTAINABLE SOLUTIONS",
+      "content": "We are a team dedicated to providing solutions in automation, IT systems, and the implementation of Industry 4.0."
+    },
+    "informacion": {
+      "title": "Who are we?",
+      "content": "We are a work team that assists the needs of our clients by providing the technology, tools, materials, advice, and services necessary to deliver solutions according to our clients' needs.",
+      "descripcion": [
+        {
+          "title": "JIDO-KA",
+          "descripcion": "A Japanese methodology that translates to <strong>Human-Centered Automation</strong>. It is based on autonomy and intelligent automation, prioritizing the fundamental role of people in processes."
+        },
+        {
+          "title": "IKIGAI",
+          "descripcion": "A Japanese concept that represents <strong>the reason for living</strong>. It describes what gives meaning to our lives, motivating us to find a purpose that makes us feel fully satisfied and happy."
+        }
+      ]
+    },
+    "mision": "To assist the needs of our clients by providing the technology, tools, advice, and services necessary to deliver comprehensive engineering solutions.",
+    "vision": "To be recognized as a company committed to providing comprehensive automation solutions in processes, offering quality, value, efficiency, and effectiveness to our projects.",
+    "valores": [
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M17.286 21.09q -1.69 .001 -5.288 -2.615q -3.596 2.617 -5.288 2.616q -2.726 0 -.495 -6.8q -9.389 -6.775 2.135 -6.775h.076q 1.785 -5.516 3.574 -5.516q 1.785 0 3.574 5.516h.076q11.525 0 2.133 6.774q 2.23 6.802 -.497 6.8'></path> </svg>",
+        "label": "Innovation"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3'></path> <path d='M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3'></path>  <path d='M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> </svg>",
+        "label": "Excellence"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'> <path d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0'></path> <path d='M3.6 9h16.8'></path> <path d='M3.6 15h16.8'></path> <path d='M11.5 3a17 17 0 0 0 0 18'></path> <path d='M12.5 3a17 17 0 0 1 0 18'></path> </svg>",
+        "label": "Integrity"
+      },
+      {
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'><path d='M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> <path d='M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0'></path> <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path></svg>",
+        "label": "Commitment"
+      }
+    ]
+  },
+  "missionandVision": {
+    "title": "Our Commitment to Excellence",
+    "content": [
+      "Let's make your goals possible through collaborative innovation. Great ideas cannot be brought to the real world without the collective energy and knowledge of a great team.",
+      "At its core, engineering is about using science to find practical and creative solutions. It is a noble profession."
+    ]
+  },
+  "programas": {
+    "title": "Do You Want to Unleash Your Imagination and Creativity?",
+    "content": [
+      "Join our team to open new learnings and possibilities, harnessing your potential.",
+      "Toman Jidoka Ikigai is looking for young individuals eager to work professionally in our company.",
+      "So if you are enrolled in the 'Youth Building the Future' program, apply for one of our plans."
+    ]
+  }
+}
