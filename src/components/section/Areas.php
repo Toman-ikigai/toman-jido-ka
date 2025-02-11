@@ -5,7 +5,7 @@ $items = $content["items"];
 
 ?>
 
-<div class="w-full py-16 px-4 lg:w-10/12 m-auto bg-primaryC-black">
+<div class="w-full py-16 px-4 lg:w-11/12 m-auto bg-primaryC-black">
     <div class="mx-auto max-w-6xl">
         <h2 class="mb-12 text-center text-3xl font-bold text-primaryC-yellow">
             <?php echo $langPath === "es" ? "Áreas de Especialización" : "Service Areas"; ?>

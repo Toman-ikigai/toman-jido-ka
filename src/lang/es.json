@@ -157,31 +157,31 @@
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'> <path d='M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06'></path> <path d='M15 19l2 2l4 -4'></path> </svg>",
         "title": "Mejor Control de Calidad",
         "description": "La información del control de calidad se transmite en tiempo real, permitiendo a las empresas detener la producción inmediatamente al identificar un problema. Esto reduce residuos, sobras, excedentes y trabajo duplicado.",
-        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/qvks9zcuvllrwlnyi7uz.png"
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/qvks9zcuvllrwlnyi7uz.png"
       },
       {
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path> <path d='M12 12l3 2'></path>  <path d='M12 7v5'></path></svg>",
         "title": "Más Tiempo en Funcionamiento",
         "description": "Genera cronogramas de producción realistas equilibrando recursos materiales, humanos y de equipamiento. Integra cronogramas y mantenimiento para maximizar el flujo de productos y la eficacia total del equipamiento (OEE).",
-        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/vhw0bdhecr01he5obpf0.png"
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/vhw0bdhecr01he5obpf0.png"
       },
       {
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M6 18l0 -3'></path> <path d='M10 18l0 -6'></path> <path d='M14 18l0 -9'></path>  <path d='M18 18l0 .01'></path></svg>",
         "title": "Inventario Reducido",
         "description": "Actualiza registros de materiales para producción, merma y cumplimiento. Permite a departamentos de compras, logística y programación conocer exactamente el material disponible, reduciendo inventarios innecesarios y ahorrando costos.",
-        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/mbb4tcxz5xrsfeki9zwe.png"
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/mbb4tcxz5xrsfeki9zwe.png"
       },
       {
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2' class='border-secondaryC-orange'>  <path d='M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2'></path>  <path d='M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4'></path>  <path d='M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z'></path></svg>",
         "title": "Planta Sin Papel",
         "description": "Elimina el papeleo, reduciendo oportunidades de error humano. Los datos registrados están disponibles inmediatamente en todos los sistemas integrados, permitiendo toma de decisiones en tiempo real.",
-        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/nj3yhpxwmsgvij5nt1pl.png"
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058617/imagens/nj3yhpxwmsgvij5nt1pl.png"
       },
       {
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' width='48' height='48' stroke-width='2'>  <path d='M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z'></path>  <path d='M16 16v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2'></path></svg>",
         "title": "Mejor Genealogía y Seguimiento",
         "description": "Sigue todo el ciclo de producción de principio a fin, agrupando partes o lotes finales con sus datos de fabricación. Mejora el cumplimiento regulatorio de los fabricantes.",
-        "image":"https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/evznuzl5v6xjmehb7ccw.png"
+        "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1737058618/imagens/evznuzl5v6xjmehb7ccw.png"
       }
     ]
   },
@@ -262,46 +262,44 @@
       }
     ]
   },
-  "about": {
-    "spot": {
-      "title": "JUNTOS, CREAMOS SOLUCIONES SOSTENIBLES",
-      "content": "Somos un equipo dedicado a brindar soluciones en automatización, sistemas informáticos e implementación de industria 4.0."
-    },
-    "informacion": {
-      "title": "¿Quiénes somos?",
-      "content": "Somos un equipo de trabajo que asiste las necesidades de nuestros clientes,proporcionando la tecnología, herramientas, material, asesoramiento y servicios necesarios para dar soluciones según las necesidades de nuestros clientes.",
-      "descripcion": [
-        {
-          "title": "JIDO-KA",
-          "descripcion": "Metodología japonesa que se traduce como <strong>Automatización con enfoque humano</strong>. Se basa en la autonomía y la automatización inteligente, priorizando el papel fundamental de las personas en los procesos."
-        },
-        {
-          "title": "IKIGAI",
-          "descripcion": "Concepto japonés que representa <strong>la razón de vivir</strong>. Describe aquello que da significado a nuestra vida, motivándonos a encontrar un propósito que nos haga sentir plenamente satisfechos y felices."
-        }
-      ]
-    },
-    "mision": "Asistir las necesidades de nuestros clientes, proporcionando la tecnología, herramientas, asesoramiento y servicios necesarios para dar soluciones integrales de ingeniería.",
-    "vision": "Ser reconocidos como una empresa comprometida en brindar soluciones integrales de automatización en procesos. Ofreciendo calidad, valor, eficiencia y eficacia a nuestros proyectos.",
-    "valores": [
+  "identity": {
+    "title": "¿Quiénes somos?",
+    "content": "Somos un equipo de trabajo que asiste las necesidades de nuestros clientes,proporcionando la tecnología, herramientas, material, asesoramiento y servicios necesarios para dar soluciones según las necesidades de nuestros clientes.",
+    "descripcion": [
       {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M17.286 21.09q -1.69 .001 -5.288 -2.615q -3.596 2.617 -5.288 2.616q -2.726 0 -.495 -6.8q -9.389 -6.775 2.135 -6.775h.076q 1.785 -5.516 3.574 -5.516q 1.785 0 3.574 5.516h.076q11.525 0 2.133 6.774q 2.23 6.802 -.497 6.8'></path> </svg>",
-        "label": "Innovación"
+        "title": "Jido-Ka (自動化)",
+        "descripcion": "Metodología japonesa que se traduce como <strong>Automatización con enfoque humano</strong>. Se basa en la autonomía y la automatización inteligente, priorizando el papel fundamental de las personas en los procesos."
       },
       {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3'></path> <path d='M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3'></path> <path d='M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> </svg>",
-        "label": "Excelencia"
-      },
-      {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'> <path d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0'></path> <path d='M3.6 9h16.8'></path> <path d='M3.6 15h16.8'></path> <path d='M11.5 3a17 17 0 0 0 0 18'></path> <path d='M12.5 3a17 17 0 0 1 0 18'></path> </svg>",
-        "label": "Integridad"
-      },
-      {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'> <path d='M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> <path d='M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0'></path> <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path></svg>",
-        "label": "Compromiso"
+        "title": "Ikigai (生き甲斐)",
+        "descripcion": "Concepto japonés que representa <strong>la razón de vivir</strong>. Describe aquello que da significado a nuestra vida, motivándonos a encontrar un propósito que nos haga sentir plenamente satisfechos y felices."
       }
     ]
   },
+  "mission": "Asistir las necesidades de nuestros clientes, proporcionando la tecnología, herramientas, asesoramiento y servicios necesarios para dar soluciones integrales de ingeniería.",
+  "vision": "Ser reconocidos como una empresa comprometida en brindar soluciones integrales de automatización en procesos. Ofreciendo calidad, valor, eficiencia y eficacia a nuestros proyectos.",
+  "spot": {
+    "title": "JUNTOS, CREAMOS SOLUCIONES SOSTENIBLES",
+    "subtitle": "Somos un equipo dedicado a brindar soluciones en automatización, sistemas informáticos e implementación de industria 4.0."
+  },
+  "valores": [
+    {
+      "label": "Innovación",
+      "text": "Buscamos la mejora continua y la creatividad en cada proyecto, aplicando tecnologías de vanguardia y soluciones eficientes."
+    },
+    {
+      "label": "Excelencia",
+      "text": "Nos esforzamos por alcanzar la excelencia en cada detalle, ofreciendo servicios de calidad y soluciones integrales."
+    },
+    {
+      "label": "Integridad",
+      "text": "Actuamos con honestidad, transparencia y ética profesional en todas nuestras relaciones y compromisos."
+    },
+    {
+      "label": "Compromiso",
+      "text": "Nos comprometemos con nuestros clientes, colaboradores y la sociedad, cumpliendo con responsabilidad y dedicación."
+    }
+  ],
   "missionandVision": {
     "title": "Nuestro Compromiso con la Excelencia",
     "content": [

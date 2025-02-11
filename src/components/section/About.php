@@ -8,21 +8,6 @@ $mision = $content["mision"];
 $vision = $content["vision"];
 
 ?>
-<!-- const colors = {
-  primaryC: {
-    yellow: "#ffff00",
-    black: "#2C2C2C",
-  },
-  secondaryC: {
-    gray: "#4B4B4B",
-    orange: "#FFA500",
-  },
-  neutralC: {
-    white: "#FFFFFF",
-    brown: "#D2B48C",
-    lightGray: "#757575",
-  },
-}; -->
 <div
     id="about"
     class="flex flex-col items-center justify-center bg-[#2c2c2c]">
@@ -158,7 +143,7 @@ $vision = $content["vision"];
                 class="p-6 rounded-xl bg-[#4B4B4B]">
                 <h3
                     class="text-2xl font-bold mb-4 text-center text-[#ffffff]">
-                    Nuestros Valores
+                    <?= $langPath === "es" ? "Nuestros Valores" : "Our Values"; ?>
                 </h3>
                 <div class="grid md:grid-cols-2 gap-4">
                     <?php foreach ($valores as $valor) : ?>

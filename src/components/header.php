@@ -19,7 +19,7 @@ $url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
         </a>
         <button
             id="menu-toggle"
-            class="lg:hidden text-white focus:outline-none focus:ring-2 focus:ring-secondaryC-orange transition transform hover:scale-110">
+            class="lg:hidden text-white focus:outline-none focus:ring-2 focus:ring-secondaryC-orange transition transform hover:scale-110 static right-4 top-4 z-30">
             <svg
                 class="w-8 h-8"
                 xmlns="http://www.w3.org/2000/svg"

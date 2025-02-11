@@ -8,7 +8,7 @@ $year = $fecha->format("Y");
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-                <h3 class="text-2xl font-semibold mb-4 text-primaryC-yellow">
+                <h3 class="text-2xl font-semibold mb-4 text-primaryC-yellow uppercase">
                     Toman Jido-Ka Ikigai
                 </h3>
                 <p class="text-secondaryC-gray mb-4">
@@ -24,7 +24,7 @@ $year = $fecha->format("Y");
                 </div>
             </div>
             <div>
-                <h4 class="text-xl font-semibold mb-4 text-primaryC-yellow">
+                <h4 class="text-xl font-semibold mb-4 text-primaryC-yellow uppercase">
                     <?= $langPath === "es" ? "Contáctanos" : "Contact Us" ?>
                 </h4>
                 <ul class="space-y-2">

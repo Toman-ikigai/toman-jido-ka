@@ -262,46 +262,44 @@
       }
     ]
   },
-  "about": {
-    "spot": {
-      "title": "TOGETHER, WE CREATE SUSTAINABLE SOLUTIONS",
-      "content": "We are a team dedicated to providing solutions in automation, IT systems, and the implementation of Industry 4.0."
-    },
-    "informacion": {
-      "title": "Who are we?",
-      "content": "We are a work team that assists the needs of our clients by providing the technology, tools, materials, advice, and services necessary to deliver solutions according to our clients' needs.",
-      "descripcion": [
-        {
-          "title": "JIDO-KA",
-          "descripcion": "A Japanese methodology that translates to <strong>Human-Centered Automation</strong>. It is based on autonomy and intelligent automation, prioritizing the fundamental role of people in processes."
-        },
-        {
-          "title": "IKIGAI",
-          "descripcion": "A Japanese concept that represents <strong>the reason for living</strong>. It describes what gives meaning to our lives, motivating us to find a purpose that makes us feel fully satisfied and happy."
-        }
-      ]
-    },
-    "mision": "To assist the needs of our clients by providing the technology, tools, advice, and services necessary to deliver comprehensive engineering solutions.",
-    "vision": "To be recognized as a company committed to providing comprehensive automation solutions in processes, offering quality, value, efficiency, and effectiveness to our projects.",
-    "valores": [
+  "identity": {
+    "title": "Who are we?",
+    "content": "We are a work team that assists the needs of our clients by providing the technology, tools, materials, advice, and services necessary to deliver solutions according to our clients' needs.",
+    "descripcion": [
       {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M17.286 21.09q -1.69 .001 -5.288 -2.615q -3.596 2.617 -5.288 2.616q -2.726 0 -.495 -6.8q -9.389 -6.775 2.135 -6.775h.076q 1.785 -5.516 3.574 -5.516q 1.785 0 3.574 5.516h.076q11.525 0 2.133 6.774q 2.23 6.802 -.497 6.8'></path> </svg>",
-        "label": "Innovation"
+        "title": "Jido-Ka (自動化)",
+        "descripcion": "A Japanese methodology that translates to <strong>Human-Centered Automation</strong>. It is based on autonomy and intelligent automation, prioritizing the fundamental role of people in processes."
       },
       {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' width='24' height='24' stroke-width='2' stroke-linejoin='round' stroke-linecap='round' stroke='currentColor' class='text-secondaryC-orange'> <path d='M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3'></path> <path d='M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3'></path>  <path d='M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> </svg>",
-        "label": "Excellence"
-      },
-      {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'> <path d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0'></path> <path d='M3.6 9h16.8'></path> <path d='M3.6 15h16.8'></path> <path d='M11.5 3a17 17 0 0 0 0 18'></path> <path d='M12.5 3a17 17 0 0 1 0 18'></path> </svg>",
-        "label": "Integrity"
-      },
-      {
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' width='24' height='24' stroke-width='2' class='text-secondaryC-orange'><path d='M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0'></path> <path d='M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0'></path> <path d='M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0'></path></svg>",
-        "label": "Commitment"
+        "title": "Ikigai (生き甲斐)",
+        "descripcion": "A Japanese concept that represents <strong>the reason for living</strong>. It describes what gives meaning to our lives, motivating us to find a purpose that makes us feel fully satisfied and happy."
       }
     ]
   },
+  "mission": "To assist the needs of our clients by providing the technology, tools, advice, and services necessary to deliver comprehensive engineering solutions.",
+  "vision": "To be recognized as a company committed to providing comprehensive automation solutions in processes, offering quality, value, efficiency, and effectiveness to our projects.",
+  "spot": {
+    "title": "TOGETHER, WE CREATE SUSTAINABLE SOLUTIONS",
+    "subtitle": "We are a team dedicated to providing solutions in automation, IT systems, and the implementation of Industry 4.0."
+  },
+  "valores": [
+    {
+      "label": "Innovation",
+      "text": "We seek continuous improvement and creativity in every project, applying cutting-edge technologies and efficient solutions."
+    },
+    {
+      "label": "Excellence",
+      "text": "We strive for excellence in every detail, offering quality services and comprehensive solutions."
+    },
+    {
+      "label": "Integrity",
+      "text": "We act with honesty, transparency and professional ethics in all our relationships and engagements."
+    },
+    {
+      "label": "Commitment",
+      "text": "We are committed to our clients, collaborators and society, complying with responsibility and dedication."
+    }
+  ],
   "missionandVision": {
     "title": "Our Commitment to Excellence",
     "content": [

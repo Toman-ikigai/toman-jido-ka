@@ -8,8 +8,7 @@ $group1 = array_slice($items, 0, $half);
 $group2 = array_slice($items, $half);
 ?>
 
-<section class="relative flex lg:w-10/12 w-11/12 m-auto mt-5 mb-5 flex-col overflow-hidden ">
-
+<section class="relative flex w-11/12 md:w-full mx-auto mt-5 mb-5 flex-col overflow-hidden ">
     <div class="infinite-carousel">
         <div>
             <?php foreach ($group1 as $item): ?>

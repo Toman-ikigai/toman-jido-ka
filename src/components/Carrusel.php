@@ -3,7 +3,7 @@
 $slides = getContentJsonLang("slideData", $langPath);
 ?>
 
-<div id="home" class="slider-container">
+<section id="home" class="slider-container">
     <?php foreach ($slides["items"] as $index => $slide): ?>
         <div class="slide <?= $index === 0 ? 'active' : '' ?>">
             <img src="<?= $slide['image'] ?>" alt="<?= $slide['title'] ?>" style="width: 100%; height: 100%; object-fit: cover;">
@@ -15,7 +15,7 @@ $slides = getContentJsonLang("slideData", $langPath);
             </div>
         </div>
     <?php endforeach; ?>
-</div>
+</section>
 
 <script>
     let currentSlide = 0;
