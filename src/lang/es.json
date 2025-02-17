@@ -262,14 +262,6 @@
         "position": "horizontal",
         "views": [
           "MES/irezsbuwsq5cze59bzc0.png",
-          "MES/c9297djxbbtyvovgnly3.png",
-          "MES/yfmfccqmzbsoxa3y9lkt.png",
-          "MES/ps5yig3rykxyw9a2uuqn.png",
-          "MES/grwhcyosipjlpjqvjzvk.png",
-          "MES/qwkikemxuvz6hjoyig58.png",
-          "MES/ifhx784s4krx1q5bof4a.png",
-          "MES/k9fzy68vfli7v1o6c2g0.png",
-          "MES/nriujdojyopavvue8ux1.png",
           "MES/z8xspawnhlisxc5yqmci.png",
           "MES/pe12vl9paaoeoodqupdb.png",
           "MES/kpjdqhq4iheqgh2damqz.png",
@@ -277,7 +269,15 @@
           "MES/q3srmih9gyyahxqjld97.png",
           "MES/wdmr8icmc6l1oyfmcpj6.png",
           "MES/gxa9eddgojwmwxwlvjiq.png",
-          "MES/d1fqr6l0m7snog6jz0zm.png"
+          "MES/d1fqr6l0m7snog6jz0zm.png",
+          "MES/c9297djxbbtyvovgnly3.png",
+          "MES/yfmfccqmzbsoxa3y9lkt.png",
+          "MES/ps5yig3rykxyw9a2uuqn.png",
+          "MES/grwhcyosipjlpjqvjzvk.png",
+          "MES/qwkikemxuvz6hjoyig58.png",
+          "MES/ifhx784s4krx1q5bof4a.png",
+          "MES/k9fzy68vfli7v1o6c2g0.png",
+          "MES/nriujdojyopavvue8ux1.png"
         ]
       },
       {
@@ -287,10 +287,6 @@
         "position": "horizontal",
         "views": [
           "Monitoreo_Energetico/vwzr0kfvxuvqthxnq40s.png",
-          "Monitoreo_Energetico/q8eibpir2zgtzarzay0e.png",
-          "Monitoreo_Energetico/md7r3dsltskf4lnjj02a.png",
-          "Monitoreo_Energetico/yfz8n3cabamcj0whz88e.png",
-          "Monitoreo_Energetico/ie0snzixoe77bowilwg9.png",
           "Monitoreo_Energetico/s0kghztpitkuszhea87l.png",
           "Monitoreo_Energetico/rfdpw8dadjocqzkhhxec.png",
           "Monitoreo_Energetico/k18bh0qfeblvseyak5um.png",
@@ -298,7 +294,11 @@
           "Monitoreo_Energetico/mbsp7aiujipjyc7onj6s.png",
           "Monitoreo_Energetico/c0z8hifxppugqvq8ivt6.png",
           "Monitoreo_Energetico/uroboiyhz7277jalqiqp.png",
-          "Monitoreo_Energetico/cseqhr6pr50be7mjbf55.png"
+          "Monitoreo_Energetico/cseqhr6pr50be7mjbf55.png",
+          "Monitoreo_Energetico/q8eibpir2zgtzarzay0e.png",
+          "Monitoreo_Energetico/md7r3dsltskf4lnjj02a.png",
+          "Monitoreo_Energetico/yfz8n3cabamcj0whz88e.png",
+          "Monitoreo_Energetico/ie0snzixoe77bowilwg9.png"
         ]
       },
       {
