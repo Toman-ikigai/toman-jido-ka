@@ -215,31 +215,98 @@
         "title": "Presentacion",
         "description": "Conoce nuestra empresa y los servicios que ofrecemos",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/jvgyslcsigvkw6zclfo3.png",
-        "url_pdf": "rlqpe7mjrtz5qmxcqan3"
+        "position": "horizontal",
+        "views": [
+          "Presentacion_Toman_Jidoka_Ikigai/l9mfhiaticlsvyyy8bfr.png",
+          "Presentacion_Toman_Jidoka_Ikigai/q0by5hz4l9cx1eo9aog0.png",
+          "Presentacion_Toman_Jidoka_Ikigai/zxru3tukttye4fhq3ctp.png",
+          "Presentacion_Toman_Jidoka_Ikigai/wkd0kiixnzrwu6srq0un.png",
+          "Presentacion_Toman_Jidoka_Ikigai/elcju52g0tdqduoszmoq.png",
+          "Presentacion_Toman_Jidoka_Ikigai/ajbahg6hln0qkzpzcxvs.png",
+          "Presentacion_Toman_Jidoka_Ikigai/jnrlvgs6agjiwmzhd5wh.png",
+          "Presentacion_Toman_Jidoka_Ikigai/mm4djsbsgynl0oohzkbz.png",
+          "Presentacion_Toman_Jidoka_Ikigai/smgxe2lx2z1lzddk3vi0.png",
+          "Presentacion_Toman_Jidoka_Ikigai/y7it8yanwgyzcjpz00bq.png",
+          "Presentacion_Toman_Jidoka_Ikigai/vtkeuouw58c5rjr4gdli.png",
+          "Presentacion_Toman_Jidoka_Ikigai/kwjslxlmofepnhyygmoh.png",
+          "Presentacion_Toman_Jidoka_Ikigai/ow5kireih4tncbekqgwg.png",
+          "Presentacion_Toman_Jidoka_Ikigai/oaohdwsbd4mjcyjuyi7p.png",
+          "Presentacion_Toman_Jidoka_Ikigai/snjbgriqsmywvx3jsznx.png",
+          "Presentacion_Toman_Jidoka_Ikigai/nlhyyo2p5xvdtt6pgodk.png"
+        ]
       },
       {
         "title": "Productos",
         "description": "Explora nuestra amplia gama de productos",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/sleu7flbtlmemdr7qir1.png",
-        "url_pdf": "hizppmcqr7owwj3htkje"
+        "position": "vertical",
+        "views": [
+          "CATALOGO_productos/htskouzq3f0lffekwgww.png",
+          "CATALOGO_productos/efjudk4jydorhsbinzfl.png",
+          "CATALOGO_productos/ckocqt85hf5f1jguyvkq.png",
+          "CATALOGO_productos/sxuzd6vnth7i4ftsqtg4.png",
+          "CATALOGO_productos/etxjhwsl0uwnostizbqk.png",
+          "CATALOGO_productos/wkfqbzdu2br0ushmzxsk.png",
+          "CATALOGO_productos/hvzudvxmaodlqgsckd2f.png",
+          "CATALOGO_productos/xoo1yvxhivgpxhg4hhb4.png",
+          "CATALOGO_productos/ugkht8spmjzqaog10caa.png",
+          "CATALOGO_productos/lhbdryjzbeo32cn3qt3m.png",
+          "CATALOGO_productos/wdpjltjanyycth0vldbu.png",
+          "CATALOGO_productos/fwzqgxirdsgeuydokgh0.png"
+        ]
       },
       {
         "title": "Sistema MES",
         "description": "Conoce nuestro sistema de ejecución de fabricación",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/yrbqokw6p11dzb25vzp6.png",
-        "url_pdf": "hxynm2uchpbctaxjve2e"
+        "position": "horizontal",
+        "views": [
+          "MES/irezsbuwsq5cze59bzc0.png",
+          "MES/c9297djxbbtyvovgnly3.png",
+          "MES/yfmfccqmzbsoxa3y9lkt.png",
+          "MES/ps5yig3rykxyw9a2uuqn.png",
+          "MES/grwhcyosipjlpjqvjzvk.png",
+          "MES/qwkikemxuvz6hjoyig58.png",
+          "MES/ifhx784s4krx1q5bof4a.png",
+          "MES/k9fzy68vfli7v1o6c2g0.png",
+          "MES/nriujdojyopavvue8ux1.png",
+          "MES/z8xspawnhlisxc5yqmci.png",
+          "MES/pe12vl9paaoeoodqupdb.png",
+          "MES/kpjdqhq4iheqgh2damqz.png",
+          "MES/vheebf7dlvqa1q08ipfv.png",
+          "MES/q3srmih9gyyahxqjld97.png",
+          "MES/wdmr8icmc6l1oyfmcpj6.png",
+          "MES/gxa9eddgojwmwxwlvjiq.png",
+          "MES/d1fqr6l0m7snog6jz0zm.png"
+        ]
       },
       {
         "title": "Monitoreo",
         "description": "Conoce nuestra tecnología de monitoreo",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/rw0ybamxrxc1mndt0ucy.png",
-        "url_pdf": "hqse65lxwb2jz95caufl"
+        "position": "horizontal",
+        "views": [
+          "Monitoreo_Energetico/vwzr0kfvxuvqthxnq40s.png",
+          "Monitoreo_Energetico/q8eibpir2zgtzarzay0e.png",
+          "Monitoreo_Energetico/md7r3dsltskf4lnjj02a.png",
+          "Monitoreo_Energetico/yfz8n3cabamcj0whz88e.png",
+          "Monitoreo_Energetico/ie0snzixoe77bowilwg9.png",
+          "Monitoreo_Energetico/s0kghztpitkuszhea87l.png",
+          "Monitoreo_Energetico/rfdpw8dadjocqzkhhxec.png",
+          "Monitoreo_Energetico/k18bh0qfeblvseyak5um.png",
+          "Monitoreo_Energetico/s6xguioxjgooxxm4pkiu.png",
+          "Monitoreo_Energetico/mbsp7aiujipjyc7onj6s.png",
+          "Monitoreo_Energetico/c0z8hifxppugqvq8ivt6.png",
+          "Monitoreo_Energetico/uroboiyhz7277jalqiqp.png",
+          "Monitoreo_Energetico/cseqhr6pr50be7mjbf55.png"
+        ]
       },
       {
         "title": "Cursos",
         "description": "Descubre nuestros cursos y talleres",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/dgp0fr9xtpfgwbjlz3aw.png",
-        "url_pdf": ""
+        "position": "vertical",
+        "views": []
       }
     ]
   },

@@ -15,7 +15,7 @@ $items = $content["items"];
             <?= $langPath === "es" ? "Nuestro Catálogo" : "Our Catalog" ?>
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" role="list">
-            <?php foreach ($items as $item): ?>
+            <?php foreach ($items as $index => $item): ?>
                 <article class="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105" itemscope itemtype="http://schema.org/Product">
                     <span class="absolute inset-0 bg-gradient-to-b from-transparent to-primaryC-black opacity-70 transition-opacity duration-300 group-hover:opacity-90">
                     </span>
@@ -32,9 +32,9 @@ $items = $content["items"];
                         <p class="text-neutralC-white text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100" itemprop="description">
                             <?= $item["description"] ?>
                         </p>
-                        <?php if (!empty(trim($item["url_pdf"]))): ?>
+                        <?php if (!empty($item["views"])): ?>
                             <a
-                                href="/<?= $langPath ?>/render-pdf/<?= $item["url_pdf"] ?>"
+                                href="/<?= $langPath ?>/render-pdf/<?= $item["title"] ?>/<?= $index ?>"
                                 class="mt-4 inline-block bg-[#4CAF50] text-white text-sm font-bold px-4 py-2 rounded-full transition-transform duration-300 hover:scale-105 hover:bg-[#45a049]"
                                 rel="noopener"
                                 aria-label="<?= $langPath === "es" ? "Ver más sobre {$item["title"]}" : "Learn more about {$item["title"]}" ?>">

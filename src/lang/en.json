@@ -215,31 +215,88 @@
         "title": "Presentation",
         "description": "Get to know our company and the services we offer",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/jvgyslcsigvkw6zclfo3.png",
-        "url_pdf": "rlqpe7mjrtz5qmxcqan3"
+        "position": "horizontal",
+        "views":[
+          "Eng_Pres_Toman_Jidoka_Ikigai/fbm1xjgveyhg0iswpmzj.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/e7zwktf870g6m3qitsuz.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/pqsb0cm1fwo6jldecjfm.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/zxq57rzv3p8xc5dlrh8r.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/zhmd1aqa1fxspw9uluzl.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/hv0f0y065olpk6rgyqfh.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/zsjujhlfjabnkgurms3t.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/hglnskcf5ecciylwzwrw.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/yamb6nlq7jmp8nzlt8by.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/nrirpqpbkezjxgn9us5w.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/t0nawmrfpvmbft0majr9.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/kchbaaud98brywa3py63.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/t4jbfzhoidwmm4xl6cjx.png",
+          "Eng_Pres_Toman_Jidoka_Ikigai/yqnnyyg4d25skxafrcht.png"
+        ]
       },
       {
         "title": "Products",
         "description": "Explore our wide range of products",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/sleu7flbtlmemdr7qir1.png",
-        "url_pdf": "hizppmcqr7owwj3htkje"
+        "position": "vertical",
+        "views":[
+          "Eng_CATALOGO_de_productos/kexbj5qqpruorlmb20sx.png",
+          "Eng_CATALOGO_de_productos/lg88t5aabavgoh66t5fb.png",
+          "Eng_CATALOGO_de_productos/gxv3uystpskqnswbjyei.png",
+          "Eng_CATALOGO_de_productos/tdx1rzyao6sbkqdfybrh.png",
+          "Eng_CATALOGO_de_productos/xkxi4lzudldlicdovp0p.png",
+          "Eng_CATALOGO_de_productos/durlqqifzqt1takqfpjr.png",
+          "Eng_CATALOGO_de_productos/w5hniomv4io009jth2hy.png",
+          "Eng_CATALOGO_de_productos/lajtohepaeqxon8jzfa7.png",
+          "Eng_CATALOGO_de_productos/dazrhx04qpgc6doamk5g.png",
+          "Eng_CATALOGO_de_productos/r4czgwasqqvh1otxkbf4.png",
+          "Eng_CATALOGO_de_productos/h0fmi8ag8oavdfykzeov.png",
+          "Eng_CATALOGO_de_productos/eycwmzmlnrra3ekyzind.png"
+        ]
       },
       {
         "title": "MES system",
         "description": "Get to know our manufacturing execution system",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/yrbqokw6p11dzb25vzp6.png",
-        "url_pdf": "hxynm2uchpbctaxjve2e"
+        "position": "horizontal",
+        "views":[
+          "Eng_pres_MES/leqebkyuqywgu4ckg9ki.png",
+          "Eng_pres_MES/az6gb4rcrme4njuh6pfp.png",
+          "Eng_pres_MES/b0y0d4bjvigpoaizwsqq.png",
+          "Eng_pres_MES/lfmiwfypkxz3hrmygcha.png",
+          "Eng_pres_MES/n8yv7p1frlzb2v5hlnh1.png",
+          "Eng_pres_MES/axyje34puyhbuphnwbcp.png",
+          "Eng_pres_MES/gqko7jwbdcer4iey0cjo.png",
+          "Eng_pres_MES/vrd9ezsbx4oi1ubriyww.png",
+          "Eng_pres_MES/z2jdtl7uvgqt17e2ijyd.png"
+        ]
       },
       {
         "title": "Monitoring",
         "description": "Get to know our monitoring technology",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/rw0ybamxrxc1mndt0ucy.png",
-        "url_pdf": "hqse65lxwb2jz95caufl"
+        "position": "horizontal",
+        "views": [
+          "Energy_Monitoring/evgqkfzfsb8umvqzonqs.png",
+          "Energy_Monitoring/jxpnwbi34b1qp2q2eyng.png",
+          "Energy_Monitoring/ashae2dqqperpaio3u7f.png",
+          "Energy_Monitoring/pywqwi0xeqex3rx7kj5n.png",
+          "Energy_Monitoring/fehcw9afdojpdnl6mf7d.png",
+          "Energy_Monitoring/qalwgckxcwrd5jv8k86j.png",
+          "Energy_Monitoring/yrrudbnogpdkec724cs6.png",
+          "Energy_Monitoring/jtupwaznpul628sw2yrl.png",
+          "Energy_Monitoring/zaxizybekbyavcfc0whb.png",
+          "Energy_Monitoring/ukftavtba3vyvy7q7csc.png",
+          "Energy_Monitoring/mpxcjiv3t3n4a5cazrcu.png",
+          "Energy_Monitoring/rb9av7la5lmiuclomfab.png",
+          "Energy_Monitoring/xxfhcdhoeo69cyxhksfi.png"
+        ]
       },
       {
         "title": "Courses",
         "description": "Discover our courses and workshops",
         "image": "https://res.cloudinary.com/dvggwdqnj/image/upload/v1733957153/imagens/dgp0fr9xtpfgwbjlz3aw.png",
-        "url_pdf": ""
+        "position": "horizontal",
+        "views": []
       }
     ]
   },

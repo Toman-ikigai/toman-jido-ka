@@ -27,12 +27,15 @@ switch ($segments[1] ?? "") {
         $controller->about();
         break;
     case "render-pdf":
-        $id = $segments[2] ?? null;
-        if (!$id) {
+        $title = $segments[2] ?? null;
+        $id= $segments[3] ?? null;
+        
+        if ($id === null || $id === '' || !$title) {
             echo "404 Not Found";
             exit();
         }
-        $controller->renderPdf($id, $language);
+
+        $controller->renderPdf($title,$id, $language);
         break;
     default:
         echo "404 Not Found";

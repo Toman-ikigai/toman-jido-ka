@@ -11,8 +11,9 @@ class Controller
         include "src/views/about.php";
     }
 
-    public function renderPdf($id,$lang)
+    public function renderPdf($title, $id, $lang)
     {
+        $langPath = $lang;
         include "src/views/renderPdf.php";
     }
 }
