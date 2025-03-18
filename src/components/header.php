@@ -11,7 +11,7 @@ $url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
     id="main-header"
     class="bg-transparent text-white p-4 lg:p-2 fixed w-full z-20 shadow-md transition-colors duration-300">
     <div class="container mx-auto flex justify-between items-center">
-        <a href="/">
+        <a href="/<?php echo $langPath; ?>">
             <img
                 src="https://res.cloudinary.com/dvggwdqnj/image/upload/v1734466484/logos/ilswi1k9e87ud8eikato.png"
                 alt="Company Logo"
@@ -42,7 +42,8 @@ $url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
                     <li class="<?php echo strpos($item['url'], 'electrocontrol') !== false ? 'hidden' : ''; ?>">
                         <a
                             href="<?php echo strpos($item['url'], 'electrocontrol') !== false ?
-                                        '/' . '/electrocontrol' : (isset($url) ? '/' : '') . '#' . $item['url']; ?>"
+                                        '/' . $langPath . '/electrocontrol' :
+                                        '/' . $langPath . (isset($url) ? '' : '#' . $item['url']); ?>"
                             class="block py-2 px-4 hover:text-secondaryC-orange transition-colors">
                             <?php echo $item['name']; ?>
                         </a>
@@ -50,7 +51,7 @@ $url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
                 <?php endforeach; ?>
                 <li>
                     <a
-                        href="/<?php echo $toggleLang; ?>"
+                        href="/<?php echo $toggleLang . (isset($url) ? '/render-pdf' : ''); ?>"
                         class="block py-2 px-4 hover:text-secondaryC-orange transition-colors">
                         <?php echo strtoupper($toggleLang); ?>
                     </a>
