@@ -39,14 +39,19 @@ $url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
             class="hidden absolute lg:static bg-black bg-opacity-80 lg:bg-transparent top-16 left-0 w-full lg:w-auto lg:space-x-6 uppercase text-sm lg:flex items-center text-white transition-all duration-300">
             <ul class="flex flex-col lg:flex-row lg:items-center">
                 <?php foreach ($langData['items'] as $item): ?>
-                    <li class="<?php echo strpos($item['url'], 'electrocontrol') !== false ? 'hidden' : ''; ?>">
+                    <li>
                         <a
-                            href="<?php echo strpos($item['url'], 'electrocontrol') !== false ?
-                                        '/' . $langPath . '/electrocontrol' :
-                                        '/' . $langPath . (isset($url) ? '' : '#' . $item['url']); ?>"
+                            href="<?php
+                                    if ($item['url'] === 'order') {
+                                        echo "/$langPath/{$item['url']}";
+                                    } else {
+                                        echo "/$langPath#{$item['url']}";
+                                    }
+                                    ?>"
                             class="block py-2 px-4 hover:text-secondaryC-orange transition-colors">
                             <?php echo $item['name']; ?>
                         </a>
+
                     </li>
                 <?php endforeach; ?>
                 <li>

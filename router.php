@@ -28,14 +28,36 @@ switch ($segments[1] ?? "") {
         break;
     case "render-pdf":
         $title = $segments[2] ?? null;
-        $id= $segments[3] ?? null;
-        
+        $id = $segments[3] ?? null;
+
         if ($id === null || $id === '' || !$title) {
             echo "404 Not Found";
             exit();
         }
 
-        $controller->renderPdf($title,$id, $language);
+        $controller->renderPdf($title, $id, $language);
+        break;
+    case "order":
+        $controller->order($language);
+        break;
+    case "product":
+        $id = $segments[2] ?? null;
+
+        if ($id === null || $id === '') {
+            echo "404 Not Found";
+            exit();
+        }
+
+        $controller->product($language, $id);
+        break;
+    case "dashboard":
+        $controller->dashboard($language);
+        break;
+    case "products":
+        $controller->viewProducts($language);
+        break;
+    case "create-product":
+        $controller->createProducts($language);
         break;
     default:
         echo "404 Not Found";

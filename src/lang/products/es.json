@@ -1,0 +1,29 @@
+[
+    {
+        "id": "67db559fbbcd9",
+        "sku": "06011B50G0",
+        "name": "Taladro Rotomartillo Bosch GSB 450 RE PROFESIONAL 3\/8 PULG 450W",
+        "price": "1000",
+        "quantity": 1,
+        "image": "https:\/\/cms.grupoferrepat.net\/assets\/img\/productos\/06011B50G0.webp",
+        "description": "Alto rendimiento y resistencia para cortes brutos."
+    },
+    {
+        "id": "67dc75549abe5",
+        "sku": "660731910759",
+        "name": "Desarmador puntas intercambiables",
+        "price": "230",
+        "image": "https:\/\/incom.mx\/cdn\/shop\/files\/URREA_9308M-DESARMADOR_PUNTAS_INTERCAMBIABLES-F1.jpg?v=1709599750&width=1220",
+        "quantity": "10",
+        "description": "Desarmador mini de puntas intercambiables con matraca 8 en 1."
+    },
+    {
+        "id": "67dc76aaa1606",
+        "sku": "A1637",
+        "name": "Pinzas para Electricista Stanley",
+        "price": "230",
+        "image": "https:\/\/ferrekuper.com.mx\/cdn\/shop\/products\/Pinzas-Electricista-Stanley-84-056LA-A1637-1-Ferrekuper.jpg?v=1675871595&width=1214",
+        "quantity": "5",
+        "description": "Descripción del producto 1"
+    }
+]
