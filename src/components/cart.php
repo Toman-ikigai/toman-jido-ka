@@ -1,68 +1,4 @@
-<?php
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $detalles = $_POST['detalles'] ?? [];
-
-    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-
-    if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "El correo electrónico no es válido.";
-        exit;
-    }
-
-    $detalles = $_POST['detalles'] ?? [];
-    if (empty($detalles)) {
-        echo "No se han enviado los detalles de los productos.";
-        exit;
-    }
-
-    $fecha_actual = date('Y-m-d H:i:s');
-    $productos = [];
-
-    foreach ($detalles as $detalle) {
-        $productos[] = [
-            'id_pieza' => filter_var($detalle['id'], FILTER_SANITIZE_STRING),
-            'sku' => filter_var($detalle['sku'], FILTER_SANITIZE_STRING),
-            'nombre_pieza' => filter_var($detalle['nombre'], FILTER_SANITIZE_STRING),
-            'cantidad_piezas' => filter_var($detalle['cantidad'], FILTER_SANITIZE_NUMBER_INT),
-            'precio_pieza' => filter_var($detalle['precio'], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION),
-            'imagen_pieza' => filter_var($detalle['imagen'], FILTER_SANITIZE_URL),
-            'fecha' => $fecha_actual
-        ];
-    }
-
-    $mensaje = "Detalles de los productos:\n\n";
-    foreach ($productos as $producto) {
-        $mensaje .= "ID: " . $producto['id_pieza'] . "\n";
-        $mensaje .= "SKU: " . $producto['sku'] . "\n";
-        $mensaje .= "Nombre: " . $producto['nombre_pieza'] . "\n";
-        $mensaje .= "Cantidad: " . $producto['cantidad_piezas'] . "\n";
-        $mensaje .= "Precio: " . number_format($producto['precio_pieza'], 2) . " USD\n";
-        $mensaje .= "Imagen: " . $producto['imagen_pieza'] . "\n";
-        $mensaje .= "Fecha: " . $producto['fecha'] . "\n\n";
-    }
-
-    $destinatario = "$email";
-    // Asunto del correo
-    $asunto = "Detalles de productos enviados";
-    // Encabezados para el correo (en este caso, texto plano)
-    $headers = "From: $email" . "\r\n" .
-        "Reply-To: " . "\r\n" .
-        "X-Mailer: PHP/" . phpversion();
-
-    // Enviar el correo
-    $envio = mail($destinatario, $asunto, $mensaje, $headers);
-
-    // Verificar si se ha enviado el correo
-    if ($envio) {
-        echo "Correo enviado correctamente.";
-    } else {
-        echo "Hubo un error al enviar el correo.";
-    }
-}
-?>
-
-<form id="shopping-cart" class="fixed top-0 right-0 bg-neutral-900 text-white p-4 w-80 h-screen shadow-lg transform translate-x-full transition-transform duration-300 z-50" method="post" action="/<?php echo $lang; ?>/order">
+<form id="shopping-cart" class="fixed top-0 right-0 bg-neutral-900 text-white p-4 w-80 h-screen shadow-lg transform translate-x-full transition-transform duration-300 z-50">
     <div class="flex justify-between items-center mb-4">
         <h2 class="text-xl font-bold text-primaryC-yellow">Carrito de Compras</h2>
         <button type="button" onclick="toggleCart()" class="text-gray-400 hover:text-primaryC-yellow">
@@ -83,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <span id="cart-total" class="text-primaryC-yellow font-bold">$0.00</span>
         </div>
         <button class="w-full bg-primaryC-yellow text-black py-2 rounded font-semibold hover:bg-[#FFA500] transition-colors duration-300">
-            Proceder al Pago
+            Enviar Pedido
         </button>
     </div>
 </form>
@@ -93,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
     </svg>
     <span id="cart-count" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+
 </button>
 
 <script>
@@ -112,63 +49,123 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     function updateCartUI() {
         cartItemsContainer.innerHTML = '';
 
-        const items = cartItems.map((item, i) => {
-            return `
+        const fragment = document.createDocumentFragment();
+
+        cartItems.forEach((item, i) => {
+            const figure = document.createElement('figure');
+            figure.className = "flex items-center gap-2 border-r border-gray-800 pr-2";
+
+            const img = document.createElement('img');
+            img.src = item.image;
+            img.alt = item.name;
+            img.className = "w-16 h-16 object-cover rounded";
+
+            const detailsDiv = document.createElement('div');
+            detailsDiv.className = "flex-1";
+
+            const name = document.createElement('h3');
+            name.className = "text-sm font-semibold";
+            name.textContent = item.name;
+
+            const price = document.createElement('p');
+            price.className = "text-primaryC-yellow";
+            price.textContent = `$${item.price.toFixed(2)}`;
+
+            const quantityDiv = document.createElement('div');
+            quantityDiv.className = "flex items-center gap-2 mt-1";
+
+            const decreaseBtn = document.createElement('button');
+            decreaseBtn.className = "text-gray-400 hover:text-primaryC-yellow decrease";
+            decreaseBtn.setAttribute("data-id", item.id);
+            decreaseBtn.setAttribute("data-action", "decrease");
+            decreaseBtn.type = "button";
+            decreaseBtn.innerHTML = `
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/>
+            </svg>
+        `;
+
+            const quantitySpan = document.createElement('span');
+            quantitySpan.className = "text-sm";
+            quantitySpan.textContent = item.quantity || 1;
+
+            const increaseBtn = document.createElement('button');
+            increaseBtn.className = "text-gray-400 hover:text-primaryC-yellow increase";
+            increaseBtn.setAttribute("data-id", item.id);
+            increaseBtn.setAttribute("data-action", "increase");
+            increaseBtn.type = "button";
+            increaseBtn.innerHTML = `
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+        `;
+            const removeBtn = document.createElement('button');
+            removeBtn.className = "text-red-500 hover:text-red-700 remove";
+            removeBtn.setAttribute("data-id", item.id);
+            removeBtn.setAttribute("data-action", "remove");
+            removeBtn.type = "button";
+            removeBtn.innerHTML = `
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+            </svg>
+        `;
+
+            const hiddenInputs = `
             <input type="hidden" name="detalles[${i}][id]" value="${item.id}">
             <input type="hidden" name="detalles[${i}][sku]" value="${item.sku}">
             <input type="hidden" name="detalles[${i}][cantidad]" value="${item.quantity || 1}">
             <input type="hidden" name="detalles[${i}][precio]" value="${item.price}">
             <input type="hidden" name="detalles[${i}][nombre]" value="${item.name}">
             <input type="hidden" name="detalles[${i}][imagen]" value="${item.image}">
-            <figure class="flex items-center gap-2 border-r border-gray-800 pr-2"/>
-                <img src="${item.image}" alt="${item.name}" class="w-16 h-16 object-cover rounded">
-                <div class="flex-1">
-                    <h3 class="text-sm font-semibold">${item.name}</h3>
-                    <p class="text-primaryC-yellow">$${item.price.toFixed(2)}</p>
-                    <div class="flex items-center gap-2 mt-1">
-                        <button data-id="${item.id}" data-action="decrease" class="text-gray-400 hover:text-primaryC-yellow">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/>
-                            </svg>
-                        </button>
-                        <span class="text-sm">${item.quantity || 1}</span>
-                        <button data-id="${item.id}" data-action="increase" class="text-gray-400 hover:text-primaryC-yellow">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <button data-id="${item.id}" data-action="remove" class="text-red-500 hover:text-red-700">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
-                    </svg>
-                </button>
-            </figure>
         `;
 
+            quantityDiv.appendChild(decreaseBtn);
+            quantityDiv.appendChild(quantitySpan);
+            quantityDiv.appendChild(increaseBtn);
+
+            detailsDiv.appendChild(name);
+            detailsDiv.appendChild(price);
+            detailsDiv.appendChild(quantityDiv);
+
+            figure.appendChild(img);
+            figure.appendChild(detailsDiv);
+            figure.appendChild(removeBtn);
+
+            figure.insertAdjacentHTML('beforeend', hiddenInputs);
+            fragment.appendChild(figure);
         });
 
-        cartItemsContainer.insertAdjacentHTML('beforeend', items.join(''));
+        cartItemsContainer.appendChild(fragment);
 
         const total = cartItems.reduce((sum, item) => sum + (item.price * (item.quantity || 1)), 0);
         cartTotal.textContent = `$${total.toFixed(2)}`;
         cartCount.textContent = cartItems.reduce((sum, item) => sum + (item.quantity || 1), 0);
     }
 
-    function updateQuantity(itemId) {
-        cartItems = cartItems.map(item => item.id === itemId ? {
-            ...item,
-            quantity: item.quantity + 1
-        } : item);
-
+    function updateQuantity(itemId, action) {
+        cartItems = cartItems.map(item => {
+            if (item.id === itemId) {
+                let newQuantity = action === 'increase' ? item.quantity + 1 : Math.max(item.quantity - 1, 1);
+                return {
+                    ...item,
+                    quantity: newQuantity
+                };
+            }
+            return item;
+        });
+        localStorage.setItem('cartItems', JSON.stringify(cartItems));
         updateCartUI();
     }
 
     function removeFromCart(itemId) {
         cartItems = cartItems.filter(item => item.id !== itemId);
+        localStorage.setItem('cartItems', JSON.stringify(cartItems));
         updateCartUI();
     }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        updateCartUI();
+    });
 
     window.addEventListener("addItem", (event) => {
         const newItem = event.detail;
@@ -180,7 +177,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ...newItem
             });
         }
+        localStorage.setItem('cartItems', JSON.stringify(cartItems));
         updateCartUI();
         if (!isCartOpen) toggleCart();
+    });
+
+    cartItemsContainer.addEventListener('click', (event) => {
+        const button = event.target.closest('button');
+        if (!button) return;
+
+        if (button.matches('.increase')) {
+            updateQuantity(button.dataset.id, 'increase');
+        } else if (button.matches('.decrease')) {
+            updateQuantity(button.dataset.id, 'decrease');
+        } else if (button.matches('.remove')) {
+            removeFromCart(button.dataset.id);
+        }
+    });
+
+
+    document.querySelector('#shopping-cart').addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        const email = formData.get('email');
+
+        const detalles = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+
+        if (!email || !detalles.length) {
+            alert('Datos incompletos');
+            return;
+        }
+        try {
+            const response = await axios.post('https://api-send-email-eight.vercel.app/api/v1/send-email', {
+                email,
+                detalles
+            });
+
+            const data = response.data
+
+            alert(data.message);
+            localStorage.setItem('cartItems', JSON.stringify([]));
+            updateCartUI();
+            toggleCart();
+        } catch (error) {
+            alert('Ocurrió un error al enviar el correo');
+        }
     });
 </script>

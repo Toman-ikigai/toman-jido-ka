@@ -1,9 +1,7 @@
 <?php
 define("IMG_ICO", "src/img/toman.ico");
-require "src/store/products.php";
 
-$products = new Products();
-$products = $products->getProducts("es");
+$products = $product->getAll("es");
 
 ?>
 
@@ -12,7 +10,7 @@ $products = $products->getProducts("es");
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="<?= IMG_ICO ?>" />
+    <link rel="icon" href="/src/img/toman.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Toman Jido-Ka Ikigai Admin Dashboard" />
     <link rel="stylesheet" href="/dist/styles.css" />
@@ -61,7 +59,7 @@ $products = $products->getProducts("es");
                             class="block w-full px-4 py-2 bg-blue-500 text-white text-center rounded-lg hover:bg-blue-600 transition-colors">
                             Add New Product
                         </a>
-                        <a href="/<?php echo $lang; ?>/products"
+                        <a href="/<?php echo $lang; ?>/view-products"
                             class="block w-full px-4 py-2 bg-gray-100 text-gray-700 text-center rounded-lg hover:bg-gray-200 transition-colors">
                             Manage Products
                         </a>

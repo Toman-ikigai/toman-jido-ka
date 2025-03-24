@@ -1,9 +1,5 @@
 <?php
-define("IMG_ICO", "src/img/toman.ico");
-require "src/service/products.php";
-$path = $_SERVER['REQUEST_URI'];
-
-$products = getProductJsonLang($lang);
+$path = "order";
 
 ?>
 <!DOCTYPE html>
@@ -11,7 +7,7 @@ $products = getProductJsonLang($lang);
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="<?= IMG_ICO ?>" />
+    <link rel="icon" href="/src/img/toman.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
         name="description"
@@ -28,6 +24,7 @@ $products = getProductJsonLang($lang);
 <body class="bg-[#2c2c2c]">
     <!-- Hero Carousel Section -->
     <?php include BASE_PATH . 'components/cart.php'; ?>
+    <?php include BASE_PATH . 'components/header.php'; ?>
     <?php include BASE_PATH . 'components/header_order.php'; ?>
     <!-- Search Section -->
     <main class="bg-neutral-900 py-8">
@@ -50,43 +47,25 @@ $products = getProductJsonLang($lang);
                 <h2 class="text-4xl font-bold text-primaryC-yellow uppercase">Productos Destacados</h2>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 cards">
-                <?php foreach ($products as $product): ?>
-                    <div class="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:scale-105 card_item">
-                        <img src="<?php echo $product['image']; ?>"
-                            alt="<?php echo $product['name']; ?>"
-                            class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="text-white font-semibold text-lg mb-2">
-                                <?php echo $product['name']; ?>
-                            </h3>
-                            <p class="text-gray-400 text-sm mb-2">
-                                SKU: <?php echo isset($product['sku']) ? $product['sku'] : 'N/A'; ?>
-                            </p>
-                            <div class="flex justify-between items-center mb-2">
-                                <p class="text-primaryC-yellow font-bold">
-                                    $<?php echo number_format($product['price'], 2); ?>
-                                </p>
-                                <p class="text-white">
-                                    Stock: <?php echo isset($product['quantity']) ? $product['quantity'] : 0; ?>
-                                </p>
-                            </div>
-                            <a href="/<?php echo $lang; ?>/product/<?php echo $product['id']; ?>"
-                                class="mt-4 block w-full bg-primaryC-yellow text-black px-4 py-2 rounded font-semibold hover:bg-[#FFA500] transition-colors duration-300 text-center">
-                                Ver Detalles
-                            </a>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
+
             </div>
         </div>
+        <div id="loading" class="text-center text-white mt-4 hidden">
+            Cargando más productos...
+        </div>
+
     </main>
 
     <?php include BASE_PATH . "components/section/Footer.php"; ?>
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         const carousel = document.querySelector('.carousel > div');
-        let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel > div > div');
+        let currentSlide = 0;
+        let offset = 0;
+        let isLoading = false;
+        let isMore = true;
 
         function nextSlide() {
             currentSlide = (currentSlide + 1) % slides.length;
@@ -116,6 +95,68 @@ $products = getProductJsonLang($lang);
                     card.style.display = 'none';
                 }
             });
+        });
+
+        async function loadMoreProducts() {
+            if (isLoading || !isMore) return;
+            isLoading = true;
+            document.getElementById('loading').classList.remove('hidden');
+            try {
+                const response = await fetch(`https://toman.com.mx/es/products?offset=${offset}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const {
+                    products
+                } = await response.json();
+
+                if (products.length === 0) {
+                    document.getElementById('loading').classList.add('hidden');
+                    isMore = false;
+                    return;
+                };
+
+                const container = document.querySelector('.cards');
+
+                products.forEach(product => {
+                    if (document.querySelector(`.card_item[data-id="${product.id_product}"]`)) return;
+
+                    const productCard = `
+                    <div class="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:scale-105 card_item" data-id="${product.id_product}">
+                        <img src="${product.imagen}" alt="${product.nombre}" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-white font-semibold text-lg mb-2">${product.nombre}</h3>
+                            <p class="text-gray-400 text-sm mb-2">SKU: ${product.sku || 'N/A'}</p>
+                            <div class="flex justify-between items-center mb-2">
+                                <p class="text-primaryC-yellow font-bold">$${parseFloat(product.precio).toFixed(2)}</p>
+                                <p class="text-white">Stock: ${product.stock || 0}</p>
+                            </div>
+                            <a href="/<?php echo $lang; ?>/product/${product.id_product}" 
+                            class="mt-4 block w-full bg-primaryC-yellow text-black px-4 py-2 rounded font-semibold hover:bg-[#FFA500] transition-colors duration-300 text-center">Ver Detalles</a>
+                        </div>
+                    </div>
+                `;
+                    container.insertAdjacentHTML("beforeend", productCard);
+                });
+
+                offset++;
+            } catch (error) {
+                alert('Ocurrió un error al cargar los productos');
+            } finally {
+                isLoading = false;
+                document.getElementById('loading').classList.add('hidden');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadMoreProducts);
+
+        window.addEventListener('scroll', () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+                loadMoreProducts();
+            }
         });
     </script>
 </body>

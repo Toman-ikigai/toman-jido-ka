@@ -3,7 +3,7 @@ require "src/service/langJson.php";
 
 $toggleLang = $langPath === "es" ? "en" : "es";
 $langData = getContentJsonLang("header", $langPath);
-$url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
+$url = str_contains($_SERVER['REQUEST_URI'], "order");
 
 ?>
 
@@ -56,7 +56,7 @@ $url = str_contains($_SERVER['REQUEST_URI'], "render-pdf");
                 <?php endforeach; ?>
                 <li>
                     <a
-                        href="/<?php echo $toggleLang . (isset($url) ? '/render-pdf' : ''); ?>"
+                        href="/<?php echo $toggleLang . (isset($url) ? '/order' : ''); ?>"
                         class="block py-2 px-4 hover:text-secondaryC-orange transition-colors">
                         <?php echo strtoupper($toggleLang); ?>
                     </a>
